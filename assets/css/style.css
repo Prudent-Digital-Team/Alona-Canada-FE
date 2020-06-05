@@ -651,6 +651,11 @@ margin-top: 700px; */
     border-bottom: 0.5px solid #D5C183 !important;
 }
 
+.checkout-page hr {
+    width: 100%;
+    margin-top: 0;
+}
+
 
 /* ORDER TRACKING */
 
