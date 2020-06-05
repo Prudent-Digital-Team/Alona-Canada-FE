@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checkout 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="./assets/dist/css/mdb.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+
+    <!-- Custom Font Family Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+    <!-- Custom styles-->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navbar navbar-expand-sm navbar-light nav-text">
+        <img src="./images/logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-md-flex d-block flex-row mx-md-auto mx-0 justify-content-around">
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav">
+                    <li class="nav-item p-2  active">
+                        <a class="nav-link " href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item p-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown03">
+                            <a class="dropdown-item" href="./blog.html">Blog</a>
+                            <a class="dropdown-item" href="./blog-single.html">Single Blog</a>
+                            <a class="dropdown-item" href="./cart.html">Cart</a>
+                            <a class="dropdown-item" href="./orderTrackingNo.html">Order Tracking 1</a>
+                            <a class="dropdown-item" href="./orderTrackingShipped.html">Order Tracking 2</a>
+                            <a class="dropdown-item" href="./products.html">Products</a>
+                            <a class="dropdown-item" href="./ProductDetails.html">Product Details</a>
+                            <a class="dropdown-item" href="./shoppingCart.html">Shopping Cart</a>
+                        </div>
+                    </li>
+                    <li class="nav-item p-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown03">
+                            <a class="dropdown-item" href="./login.html">Login</a>
+                            <a class="dropdown-item" href="./register.html">Register 1</a>
+                            <a class="dropdown-item" href="./register2.html">Register 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item p-2 ">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="ml-auto d-flex">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input class="form-control py-2 border-right-0 border" type="search" value="search..." id="example-search-input">
+                        <span class="input-group-append">
+                                <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+                            </span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="" class="p-2"> <img src="./images/basket-icon.png" alt=""></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </nav>
+    <main class="checkout-page">
+        <section class="">
+            <div class="container">
+                <h2 class="font-weight-bold pb-5 pt-5 mb-3 red">Checkout 1</h2>
+                <div class="row">
+                    <div class="col-sm ">
+                        <div class="info-box mb-5">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex">
+                                        <p class="green font-weight-bold mb-3">ADDRESS DETAILS</p>
+                                        <p class="red font-weight-bold ml-auto">CHANGE</p>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="col-sm d-flex">
+                                    <p class="ash"> <span class="font-weight-bold"> Jane Doe, </span> <br> 123 Acme Road, Acme, Ontario, AC1234CA <br> +1 234 456 78<br> jane.doe@xyz.co.ca</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="delivery-method-box">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <p class="green font-weight-bold mb-3">DELIVERY METHOD</p>
+                                            <hr>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="default1" name="groupOfDefaultRadios" checked>
+                                                <label class="custom-control-label ash font-weight-bold" for="default1">HOME DELIVERY </label>
+                                                <p class="ash">Delivered between Monday 8 June and Thursday 11 June via <img class="img-fluid" src="./images/dhl-logo.svg" alt="" height="90px" width="100px"></p>
+                                            </div>
+
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="default2" name="groupOfDefaultRadios">
+                                                <label class="custom-control-label ash font-weight-bold" for="default2">PICKUP AT SHOP</label>
+                                                <p class="ash">Ready for pickup between Monday, 8 June and Thursday, 11 June at cheaper shipping fees</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="shipment-details">
+                                        <div class="row ash">
+                                            <div class="col-sm-12">
+                                                <p class=" font-weight-bold">SHIPMENT DETAILS</p>
+                                                <hr>
+                                            </div>
+                                            <div class="row px-5 mb-5">
+                                                <div class="col-sm-12">
+                                                    <h5 class=" pb-3 pl-5"> Shipment 1 of 3 </h5>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-1  align-self-center">
+                                                            <p class="font-weight-bold ">1x</p>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <div class="row justify-content-around align-content-center">
+                                                                <div class="col-sm-2">
+                                                                    <div class="image-box">
+                                                                        <img class="img-fluid img-100" src="./images/bottle.png">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-10 align-self-center">
+                                                                    <p>Powdered Ginseng, 50g</p>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="col-sm-4 align-self-center">Delivered between Monday, 8 June and Thursday 11 June</div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="row px-5 mb-5 mt-5">
+                                                <div class="col-sm-12">
+                                                    <h5 class=" pb-3 pl-5"> Shipment 2 of 3 </h5>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-1  align-self-center">
+                                                            <p class="font-weight-bold ">1x</p>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <div class="row justify-content-around align-content-center">
+                                                                <div class="col-sm-2">
+                                                                    <div class="image-box">
+                                                                        <img class="img-fluid img-100" src="./images/green_pack.svg">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-10 align-self-center">
+                                                                    <p>Small-sized sliced ginseng root, 250g</p>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="col-sm-4 align-self-center">Delivered between Monday, 8 June and Thursday 11 June</div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="row px-5 mb-5 mt-5">
+                                                <div class="col-sm-12">
+                                                    <h5 class=" pb-3 pl-5"> Shipment 3 of 3 </h5>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-1  align-self-center">
+                                                            <p class="font-weight-bold ">1x</p>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <div class="row justify-content-around align-content-center">
+                                                                <div class="col-sm-2">
+                                                                    <div class="image-box">
+                                                                        <img class="img-fluid img-100" src="./images/iron-pack.svg">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-10 align-self-center">
+                                                                    <p>Small-sized sliced ginseng root, 250g</p>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="col-sm-4 align-self-center">Delivered between Monday, 8 June and Thursday 11 June</div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-sm-6 text-left">
+                                            <h3 class="ash font-weight-bold"> Subtotal</h3>
+
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            <h3 class="red font-weight-bold">C$ 147.00</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-sm-6 text-left">
+                                            <h3 class="ash font-weight-bold">Shipping </h3>
+
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            <h3 class="red font-weight-bold">N.A.</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-sm-6 text-left">
+                                            <h3 class="ash font-weight-bold">Total </h3>
+
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            <h3 class="red font-weight-bold">C$ 147.00</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-sm-12 text-center">
+                                            <button type="button" class="btn proceedbtn font-weight-bold px-5 py-2">PROCEED TO NEXT STEP <i class="fa fa-long-arrow-alt-right fa-lg"></i> </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container stone">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2 image-box"><img class="img-100 img-fluid" src="./images/flat-stone.svg" alt=""></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <!-- FOOTER SECTION -->
+    <footer class="footer mt-auto mb-3 py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light nav-text">
+                <img src="./images/logo.png" alt="">
+                <div class="d-md-flex ml-auto justify-content-around">
+                    <div class="collapse navbar-collapse" id="navbarsExample03">
+                        <ul class="navbar-nav">
+                            <li class="nav-item p-2">
+                                <a class="nav-link " href="#">Quick links</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link" href="#">Privacy policy</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link" href="#">Contact Support</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link" href="#">Terms of use</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+<!-- jQuery -->
+<script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="./assets/dist/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
+
+
+</body>
+
+</html>
