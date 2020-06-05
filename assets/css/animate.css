@@ -77,6 +77,56 @@ p {
   font-size: 16px;
 }
 
+
+/* Button animations */
+.swipe-wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .swipe{
+    display: block;
+    width: auto;
+    height: auto;
+    /* line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none; */
+    color: rgb(214, 0, 0);
+    border: 2px solid #333;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .swipe span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .swipe:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  .swipe:hover{
+    color: rgb(148, 204, 17);
+  }
+  
+  .swipe:hover:after{
+    width: auto;
+  }
+
+
 .btn.back-to-top {
   bottom: 50px;
   right: 30px;
