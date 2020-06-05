@@ -983,6 +983,10 @@ margin-top: 700px; */
     align-self: flex-end;
 }
 
+.about-us-page .image-box img {
+    max-width: 120%;
+}
+
 
 /* MEDIA QUERIES */
 
