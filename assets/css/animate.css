@@ -1,6 +1,7 @@
 
 :root {
   --black: black;
+  --gold: #D5C183;
   --rose: #e91e63;
 }
 
@@ -65,12 +66,12 @@ p {
 
 .form-control,
 .is-focused .form-control {
-  background-image: linear-gradient(0deg, var(--rose) 2px, rgba(156, 39, 176, 0) 0),
+  background-image: linear-gradient(0deg, var(--gold) 2px, rgba(156, 39, 176, 0) 0),
     linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
 }
 
 .form-check .form-check-input:checked + .form-check-sign .check {
-  background: var(--rose);
+  background: var(--gold);
 }
 
 .form-row button {
@@ -155,7 +156,7 @@ p {
 }
 
 .page-footer span {
-  color: var(--rose);
+  color: var(--gold);
 }
 
 @media (min-width: 576px) {
