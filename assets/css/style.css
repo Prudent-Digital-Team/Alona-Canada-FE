@@ -1097,6 +1097,24 @@ margin-top: 700px; */
     .subscribe .form-group button {
         width: 50%;
     }
+
+/* ABOUT US PAGE */
+.about-us-page {
+    padding: 0 !important;
+}
+/* ABOUT PRODUCT PAGE */
+.about-product-page {
+    padding: 0 !important;
+}
+
+.about-product-page p {
+    text-align: justify;
+}
+
+.about-product-page h2 {
+    text-align: center;
+    font-size: 2em;
+}
     /* BLOG PAGE */
     .blog-page .main-blog .image-box {
         width: 360px;
