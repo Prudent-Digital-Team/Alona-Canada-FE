@@ -6,17 +6,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="./assets/dist/css/mdb.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Font Awesome CSS -->
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+    <<<<<<< HEAD <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="./assets/dist/css/mdb.min.css"> =======
 
-    <!-- Custom Font Family Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
-    <!-- Custom styles-->
-    <link href="./assets/css/style.css" rel="stylesheet">
+        <!-- Material Design Botstrap core CSS -->
+        <link href="./assets/dist/css/mdb.min.css" rel="stylesheet"> >>>>>>> 73cd9cb59f938604c924c0263ca2b4ef94a75be1
+        <!-- Bootstrap core CSS -->
+        <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+        <!-- Font Awesome CSS -->
+        <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+
+        <!-- Custom Font Family Raleway -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+        <!-- Custom styles-->
+        <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -96,11 +99,11 @@
     </nav>
     <!--/.Navbar-->
     <main class="order-tracking-page">
-        <h2 class="font-weight-bold pb-5 pt-5 mb-3 red text-center">Tracking</h2>
+        <h2 class="font-weight-bold pb-5 pt-5 mb-3 red text-center wow fadeInUp">Tracking</h2>
         <hr>
         <div class="container">
-            <div class="row mb-5 user-order-info">
-                <div class="col-sm-3">
+            <div class="row mb-5 user-order-info wow fadeInUp">
+                <div class="col-sm-3 wow flipInY">
                     <p>Hi, <span class="green">Jane <span class="font-weight-bold">DOE</span></span>
                     </p>
                 </div>
@@ -114,7 +117,7 @@
                     <p>02:03pm</p>
                 </div>
             </div>
-            <div class="row justify-content-center align-content-center order">
+            <div class="row justify-content-center align-content-center order wow fadeInUp">
                 <div class="col-sm-3">
                     <i class="fa fa-tag fa-10x"></i>
                 </div>
@@ -129,13 +132,13 @@
                     <button type="button" class="btn btn-block">Get help</button>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 wow slideInLeft">
                 <div class="col-sm-12 order-tracking-image mb-5">
                     <img class="img-fluid" src="./images/order-Tracking-Shipped.svg" alt="">
                 </div>
             </div>
-            <hr class="order-tracking-hr">
-            <div class="row">
+            <hr class="order-tracking-hr wow slideInLeft">
+            <div class="row wow slideInLeft">
                 <div class="col-sm">
                     <p class="red font-weight-bold">RECEIPIENT INFORMATION</p>
                     <p class="ash">Jane Doe,<br> 123 Acme Road, <br> Acme, Ontario, <br> AC1234CA <br><br> +1 234 456 78 <br><br> jane.doe@xyz.co.ca </p>
@@ -163,7 +166,7 @@
                 <div class="col-sm"></div>
                 <div class="col-sm"></div>
             </div>
-            <div class="row">
+            <div class="row wow slideInRight">
                 <div class="col-sm">
                     <p class="red font-weight-bold">ORDER NUMBER</p>
                     <p class="ash">123456</p>
@@ -258,15 +261,20 @@
         <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
-    <!-- jQuery -->
-    <script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="./assets/dist/js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
+</body>
+<!-- jQuery -->
+<script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="./assets/dist/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
+<script>
+    $(document).ready(function() {
+        new WOW().init();
+    });
+</script>
 
 </body>
 

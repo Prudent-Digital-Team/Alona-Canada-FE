@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Balogun Ridwan">
     <title>Alona Canada | About Us</title>
+
     <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="./assets/dist/css/mdb.min.css">
     <!-- Bootstrap core CSS -->
@@ -101,19 +102,19 @@
     <div class="container-fluid mt-5 mb-5 about-us-page p-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="font-weight-bold pb-2 pt-2 mb-3 red text-center">About Us</h2>
+                <h2 class="font-weight-bold pb-2 pt-2 mb-3 red text-center wow animated fadeInUp">About Us</h2>
             </div>
         </div>
 
         <div class="row mt-5 mx-5">
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow animated delay-1s_ fadeInLeft">
                 <div class="image-box">
                     <img class="img-fluid img-100" src="./images/root1.svg" alt="">
                 </div>
 
             </div>
             <div class="col-sm-4"></div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow animated delay-1s_ fadeInRight">
                 <h2 class="gold text-right mb-3">Our Mission</h2>
                 <p class="ash text-right">
                     Medicinal plants which deliver us with leaves, flowers, fruits, nuts, and roots are amazing gifts from Mother Earth. It's our exciting exploration to find out how abundantly they nurture us on our daily life and provide us vitality. We make products from
@@ -122,7 +123,7 @@
             </div>
         </div>
         <div class="row mt-5 mx-5">
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow animated delay-2s_ fadeInLeft">
                 <h2 class="gold text-left mb-3">Our Values</h2>
                 <p class="ash text-left">
                     We had served over 24,000 client visits with the alternative treatment providing herbal medicine and acupuncture for over 15 years. We deeply acknowledge how powerful medicinal plants can heal for human well-being. More than 60% of the world relies on
@@ -132,7 +133,7 @@
             </div>
             <div class="col-sm-4"></div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow animated delay-2s_ fadeInRight">
                 <div class="image-box">
                     <img class="img-fluid img-100" src="./images/root2.svg" alt="">
                 </div>
@@ -140,14 +141,14 @@
             </div>
         </div>
         <div class="row mt-5 mx-5">
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow animated delay-3s_ fadeInLeft">
                 <div class="image-box">
                     <img class="img-fluid img-100" src="./images/root3.svg" alt="">
                 </div>
 
             </div>
             <div class="col-sm-4"></div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow animated delay-3s_ fadeInRight">
                 <h2 class="gold text-right mb-3">Our Vision</h2>
                 <p class="ash text-right">
                     Canadian ginseng has the best quality thanks to the friendly-ecological environment, unique climate, ideal soil, clean water along with the sustainable agriculture practices in Canada. These features bring back the high-quality ginseng rich in nutrients
@@ -157,11 +158,12 @@
             </div>
         </div>
     </div>
+
     <!-- SUBSCRIBE SECTION -->
     <div class="container subscribe">
-        <h2 class="font-weight-bold pb-2 pt-2 red text-center">Subscribe</h2>
+        <h2 class="font-weight-bold pb-2 pt-2 red text-center wow animated fadeInUp">Subscribe</h2>
         <p class="text-center">Sign up to hear from us about specials, sales, and events</p>
-        <form class="flex-column">
+        <form class="flex-column wow animated flipInX">
             <div class="form-group row">
                 <div class="col-sm-12 col-xs-12 col-md-10">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
@@ -237,13 +239,20 @@
         <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
     <!-- jQuery -->
     <script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="./assets/dist/js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            new WOW().init();
+        });
+    </script>
+
 </body>
 
 </html>
