@@ -1034,6 +1034,13 @@ margin-top: 700px; */
 }
 
 
+/* FOOTER  */
+
+footer.page-footer a {
+    color: #6B6B6A;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
