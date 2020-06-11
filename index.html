@@ -16,80 +16,90 @@
 
     <!-- Custom Font Family Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+
     <!-- Custom styles-->
     <link href="./assets/css/style.css" rel="stylesheet">
+
     <title>Alona Canada | Home</title>
 </head>
 
 <body>
+
     <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
 
-    <nav class="navbar navbar-expand-sm navbar-light nav-text">
-        
+        <!-- Navbar brand -->
         <a href="./index.html"><img src="./images/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="d-md-flex d-block flex-row mx-md-auto mx-0 justify-content-around">
-            <div class="collapse navbar-collapse" id="navbarsExample03">
-                <ul class="navbar-nav">
-                    <li class="nav-item p-2  active">
-                        <a class="nav-link " href="./index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item p-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="dropdown-item" href="./about.html">About Us</a>
-                            <a class="dropdown-item" href="./about-product.html">About Canada Ginseng</a>
 
-                        </div>
-                    </li>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+    </button>
 
-                    <li class="nav-item p-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="dropdown-item" href="./products.html">Products</a>
-                            <a class="dropdown-item" href="./blog.html">Blog</a>
-                            <a class="dropdown-item" href="./orderTrackingNo.html">Order Tracking 1</a>
-                            <a class="dropdown-item" href="./orderTrackingShipped.html">Order Tracking 2</a>
-                            <a class="dropdown-item" href="./faqs.html">FAQs</a>
-                        </div>
-                    </li>
-                    <li class="nav-item p-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="dropdown-item" href="./login.html">Login</a>
-                            <a class="dropdown-item" href="./register.html">Register</a>
-                        </div>
-                    </li>
-                    <li class="nav-item p-2 ">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
+        <!-- Collapsible content -->
 
-            </div>
-        </div>
-        <div class="ml-auto d-flex">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="input-group">
-                        <input class="form-control py-2 border-right-0 border" type="search" value="search..." id="example-search-input">
-                        <span class="input-group-append">
-                                <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
-                            </span>
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./about.html">About Us</a>
+                        <a class="dropdown-item" href="./about-product.html">About Canada Ginseng</a>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <a href="" class="p-2"> <img src="./images/basket-icon.png" alt=""></a>
-                </div>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./products.html">Products</a>
+                        <a class="dropdown-item" href="./blog.html">Blog</a>
+                        <a class="dropdown-item" href="./orderTrackingNo.html">Order Tracking 1</a>
+                        <a class="dropdown-item" href="./orderTrackingShipped.html">Order Tracking 2</a>
+                        <a class="dropdown-item" href="./faqs.html">FAQs</a>
+                    </div>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./login.html">Login</a>
+                        <a class="dropdown-item" href="./register.html">Register</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
 
+            </ul>
+            <!-- Links -->
+            <div class=" my-0">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input class="form-control py-2 border-right-0 border" type="search" value="search..." id="example-search-input">
+                            <span class="input-group-append">
+                                    <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="p-2"> <img src="./images/basket-icon.png" alt=""></a>
+                    </div>
+
+                </div>
             </div>
 
 
-
         </div>
-    </nav>
+        <!-- Collapsible content -->
 
+    </nav>
+    <!--/.Navbar-->
     <!-- HERO SECTION -->
     <div class="container mt-5 hero-section">
         <div class="row justify-content-center align-content-center">
@@ -313,32 +323,69 @@
         </form>
     </div>
     <hr>
-    <footer class="footer mt-auto mb-3 py-3">
-        <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-light nav-text">
-                <a href="./index.html"><img src="./images/logo.png" alt=""></a>
-                <div class="d-md-flex ml-auto justify-content-around">
-                    <div class="collapse navbar-collapse" id="navbarsExample03">
-                        <ul class="navbar-nav">
-                            <li class="nav-item p-2">
-                                <a class="nav-link " href="#">Quick links</a>
-                            </li>
-                            <li class="nav-item p-2 ">
-                                <a class="nav-link" href="#">Privacy policy</a>
-                            </li>
-                            <li class="nav-item p-2 ">
-                                <a class="nav-link" href="./contact.html">Contact Support</a>
-                            </li>
-                            <li class="nav-item p-2 ">
-                                <a class="nav-link" href="#">Terms of use</a>
-                            </li>
-                        </ul>
+    <!-- Footer -->
+    <footer class="page-footer font-small lighten-5">
 
-                    </div>
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row dark-grey-text">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
+                    <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+
                 </div>
-            </nav>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="">Quick links</h6>
+
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6>Privacy policy</h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <a href="./contact.html">
+                        <h6>Contact Support</h6>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6>Terms of use</h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
         </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+            <a class="dark-grey-text" href="./index.html"> Alona Canada</a>
+        </div>
+        <!-- Copyright -->
+
     </footer>
+    <!-- Footer -->
     <!-- jQuery -->
     <script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
