@@ -103,7 +103,7 @@
         <div class="container top-images">
             <div class="row justify-content-center align-content-center">
                 <div class="col-md-4 align-self-end">
-                    <div class="image-box">
+                    <div class="image-box animated wow rotateIn slower ">
                         <img class="img-fluid" src="./images/heap_powder.svg" alt="">
                     </div>
 
@@ -112,7 +112,7 @@
                     <img class="img-fluid" src="./images/grouped-products.svg" alt="">
                 </div>
                 <div class="col-md-4 align-self-end">
-                    <div class="image-box ml-auto">
+                    <div class="image-box ml-auto animated pulse infinite">
                         <img class="img-fluid" src="./images/flat-stone.svg" alt="">
                     </div>
 
@@ -123,8 +123,8 @@
 
         <!-- THE PRODUCT FORM SECTION-->
         <div class="container search mb-3">
-            <h2 class="font-weight-bold pb-2 pt-2 mb-3 red text-center">Our Products</h2>
-            <form class="form-inline mt-2">
+            <h2 class="font-weight-bold pb-2 pt-2 mb-3 red text-center wow animated fadeInup delay-1s">Our Products</h2>
+            <form class="form-inline mt-2 wow pulse ">
                 <div class="form-group col-md-4">
                     <label class="col-sm-2 col-form-label mr-2" for="search">SEARCH</label>
                     <input type="text" class="form-control" id="search" placeholder="">
@@ -154,8 +154,8 @@
         <!-- LIST OF PRODUCT SECTION-->
 
         <div class="container">
-            <div class="row justify-content-between mb-5">
-                <div class=" col-sm-12  col-md-4 col-xs-12 product">
+            <div class="row justify-content-between mb-5 wow pulse delay-1s ">
+                <div class=" col-sm-12  col-md-4 col-xs-12 product wow fadeInLeft">
                     <p>Small-sized sliced ginseng root, Net. Wt. 250g</p>
                     <div class="image-box text-center mb-3">
                         <img class="img-fluid" src="./images/green_pack.svg" alt="">
@@ -167,7 +167,7 @@
                         <div class="col-md-6 "><i class="fa fa-play green"></i> <a href="" class="green font-weight-bold">BUY NOW</a> </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 product">
+                <div class="col-md-4 col-sm-12 col-xs-12 product wow fadeInLeft">
                     <p>Medium-sized sliced ginseng root, Net. Wt. 250g</p>
                     <div class="image-box text-center mb-3">
                         <img class="img-fluid" src="./images/orange-pack.svg" alt="">
@@ -179,7 +179,7 @@
                         <div class="col-md-6"><i class="fa fa-play green"></i> <a href="" class="green font-weight-bold">BUY NOW</a> </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 product">
+                <div class="col-md-4 col-sm-12 col-xs-12 product wow fadeInLeft">
                     <p>Medium-sized ginseng root, Net. Wt. 250g</p>
                     <div class="image-box text-center mb-3">
                         <img class="img-fluid" src="./images/red_pack.svg" alt="">
@@ -192,8 +192,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-between">
-                <div class="col-md-4 col-sm-12 col-xs-12 product">
+            <div class="row justify-content-between ">
+                <div class="col-md-4 col-sm-12 col-xs-12 product wow fadeInRight">
                     <p>Small-sized sliced ginseng root, Net. Wt. 125g</p>
                     <div class="image-box text-center mb-3">
                         <img class="img-fluid" src="./images/sachet-pack.svg" alt="">
@@ -205,7 +205,7 @@
                         <div class="col-md-6"><i class="fa fa-play green"></i> <a href="" class="green font-weight-bold">BUY NOW</a> </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 product">
+                <div class="col-md-4 col-sm-12 col-xs-12 product wow fadeInRight">
                     <p>Premium sliced ginseng root, Net. Wt. 50g </p>
                     <div class="image-box text-center mb-5">
                         <img class="img-fluid" src="./images/iron-pack.svg" alt="">
@@ -217,7 +217,7 @@
                         <div class="col-md-6"><i class="fa fa-play green"></i> <a href="" class="green font-weight-bold">BUY NOW</a> </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 product">
+                <div class="col-md-4 col-sm-12 col-xs-12 product  wow fadeInRight">
                     <p>Powdered ginseng, Net Wt. 50g</p>
                     <div class="image-box text-center mb-3">
                         <img class="img-fluid" src="./images/bottle.png" alt="">
@@ -331,6 +331,11 @@
     <script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            new WOW().init();
+        });
+    </script>
 </body>
 
 </html>
