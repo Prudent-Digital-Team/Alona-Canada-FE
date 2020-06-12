@@ -99,13 +99,13 @@
     <main class="checkout-page">
         <section class="">
             <div class="container">
-                <h2 class="font-weight-bold pb-5 pt-5 mb-3 red">Checkout 2</h2>
+                <h2 class="font-weight-bold pb-5 pt-5 mb-3 red wow bounce">Checkout 2</h2>
                 <div class="row">
                     <div class="col-md-8 ">
-                        <div class="info-box mb-5">
+                        <div class="info-box mb-5 wow fadeInLeft">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <p class="green font-weight-bold mb-3">ADDRESS DETAILS</p>
+                                    <p class="green font-weight-bold mb-3 wow pulse">ADDRESS DETAILS</p>
                                     <p class="ash"> <span class="font-weight-bold"> Jane Doe, </span> <br> 123 Acme Road, Acme, Ontario, AC1234CA <br> +1 234 456 78<br> jane.doe@xyz.co.ca</p>
                                 </div>
                                 <div class="col-md-6 d-flex">
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="info-box">
+                        <div class="info-box wow fadeInLeft">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="row">
@@ -137,7 +137,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4 payment-info p-5">
+                    <div class="col-md-4 payment-info p-5 wow fadeInRight">
                         <h4 class="red font-weight-bold mt-2 text-left">Payment Information</h4>
                         <hr>
                         <div class="row">
@@ -307,7 +307,12 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
 
-
+    
+    <script>
+        $(document).ready(function() {
+            new WOW().init();
+        });
+    </script>
 </body>
 
 </html>
