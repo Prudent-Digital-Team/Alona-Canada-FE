@@ -122,8 +122,8 @@
                 </div>
             </div>
             <div class="col-md-7  col-sm-12 col-xs-12 pr-5">
-                <h1 class=" font-weight-bold hero-text pb-5 wow animated fadeInDown bounce_ delay-1s">Alona Canada</h1>
-                <p class="font-weight-normal text-left hero-desc wow animated fadeInRight fast">Making products from parts of the ginseng plant to maintain your good health in the most natural way.</p>
+                <h1 class=" font-weight-bold hero-text pb-5 wow animated fadeInDown bounce_ fast css-typing">Alona Canada</h1>
+                <p class="font-weight-normal text-left hero-desc wow animated fadeInRight fast css-typing">Making products from parts of the ginseng plant to maintain your good health in the most natural way.</p>
                 <a class="btn  align-self-start hero-button mb-1 ml-0 wow animated fadeInUp _bounce delay-2s" href="./products.html">SHOP NOW</a>
 
                 <ol class="carousel-indicators mt-1">
@@ -398,6 +398,24 @@
         $(document).ready(function() {
             new WOW().init();
         });
+
+        $('.css-typing').each(function (i,elem) {
+            var duration =100;
+        var str = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.';
+       
+           // var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+           
+            var spans = '<span>' + $(elem).text().split('').join('</span><span>') + '</span>';
+            $(elem).text('');
+            $(spans).hide().appendTo(elem).each(function (i) {
+                $(this).delay(100 * i).css({
+                    display: 'inline',
+                    opacity: 0
+                }).animate({
+                    opacity: 1
+                }, 100);
+            });
+        })
     </script>
 
 </body>
