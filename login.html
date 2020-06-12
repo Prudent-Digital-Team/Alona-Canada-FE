@@ -7,22 +7,24 @@
     <meta name="description" content="">
     <meta name="author" content="Balogun Ridwan">
     <title>Alona Canada | Login</title>
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Font Awesome CSS -->
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+   <!-- Material Design Bootstrap -->
+   <link rel="stylesheet" href="./assets/dist/css/mdb.min.css">
+   <!-- Bootstrap core CSS -->
+   <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+   <!-- Font Awesome CSS -->
+   <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
 
-    <!-- Custom Font Family Raleway -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
-  
-    <link rel='stylesheet'
-        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons'>
-    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.css'>
-    <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css'> -->
-    <!-- Custom styles-->
-    <link href="./assets/css/style.css" rel="stylesheet">
+   <!-- Custom Font Family Raleway -->
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
 
-    <!-- <link href="./assets/css/animate.css" rel="stylesheet"> -->
+   <!-- <link rel='stylesheet'
+       href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons'> -->
+   <!-- <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.css'> -->
+   <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css'>
+   <!-- Custom styles-->
+   <link href="./assets/css/style.css" rel="stylesheet">
+   <link href="./assets/css/animate.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -113,7 +115,7 @@
 
             <div class="col-sm-6">
                 <div class="col-md-12">
-                    <h2 data-aos="fade-up" class="font-weight-bold pb-2 pt-2 mb-3 red text-center">Login</h2>
+                    <h2 data-aos="fade-up" class="font-weight-bold pb-2 pt-2 mb-3 wow bounce red text-center">Login</h2>
                 </div>
 
             </div>
@@ -129,9 +131,9 @@
             <div style="z-index: 9900!important;" class="row login-box justify-content-center align-content-center p-5">
                 <div class="col-md-6">
                     <div class="col-md-12">
-                        <h2 data-aos="fade-left" class="text-left font-weight-bold gold py-3">LOGIN </h2>
+                        <h2 data-aos="fade-left" class="text-left font-weight-bold wow fadeInLeft gold py-3">LOGIN </h2>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInLeft">
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-md-12 ">
@@ -153,9 +155,9 @@
                 </div>
                 <div class="col-md-6 left-border">
                     <div class="col-md-12">
-                        <h2 data-aos="fade-left" class="text-left font-weight-bold gold py-3">SIGN UP </h2>
+                        <h2 data-aos="fade-left" class="text-left font-weight-bold gold py-3 wow fadeInRight">SIGN UP </h2>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInRight">
 
                         <p class="text-left pr-1 h4 mb-5"> Don’t have account, <br> sign up & enjoy amazing benefits.
                         </p>
@@ -241,32 +243,38 @@
         <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+   <!-- jQuery -->
+   <script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="./assets/dist/js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
 
-    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/bootstrap-material-design.min.js'></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.js'></script>
-    <script src='https://unpkg.com/aos@next/dist/aos.js'></script> -->
-    <script src="./assets/dist/js/bootstrap.min.js "></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/bootstrap-material-design.min.js'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.js'></script>
+  <!-- <script src='https://unpkg.com/aos@next/dist/aos.js'></script> -->
 
-    <script id="rendered-js">
-        const $backTop = $(".back-to-top");
-        const isHidden = "is-hidden";
 
-        // AOS.init({
-        //     offset: 200,
-        //     delay: 50,
-        //     once: true, //false
-        // });
+  
+  <script id="rendered-js">
+      const $backTop = $(".back-to-top");
+      const isHidden = "is-hidden";
 
-        $(document).ready(function() {
-            new WOW().init();
-        });
+      // AOS.init({
+      //     offset: 200,
+      //     delay: 50,
+      //     once: true, //false
+      // });
 
-    
-    </script>
+      $(document).ready(function() {
+          new WOW().init();
+      });
+
+  
+  </script>
 </body>
 
 </html>
