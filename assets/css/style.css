@@ -1023,6 +1023,20 @@ margin-top: 700px; */
 }
 
 
+/* HEALTHY RECIPE */
+
+.healthy-recipe-page img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.healthy-recipe-page p {
+    font-style: normal;
+    font-size: 1em;
+}
+
+
 /* FAQ PAGE  */
 
 .faq-page .faq-box {
