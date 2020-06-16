@@ -709,6 +709,10 @@ margin-top: 700px; */
     padding: 40px 50px;
 }
 
+.checkout-page sup span.fa-star {
+    font-size: 0.5em;
+}
+
 .checkout-page .shipment-details {
     background: #FFFFFF;
     border: 1px solid #D5C183;
