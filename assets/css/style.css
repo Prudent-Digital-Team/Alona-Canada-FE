@@ -1022,15 +1022,16 @@ margin-top: 700px; */
 }
 
 .contact-us-page .image-box {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    /* height: 150px; */
     /* margin: 0 auto; */
     align-self: flex-end;
 }
 
-.about-us-page .image-box img {
-    max-width: 120%;
-}
+
+/* .about-us-page .image-box img {
+    max-width: 100%;
+} */
 
 .about-product-page {
     padding: 0 100px;
