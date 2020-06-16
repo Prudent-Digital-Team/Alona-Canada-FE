@@ -58,7 +58,7 @@ body {
     font-weight: bold !important;
     color: #ED1C24;
     text-decoration: none;
-    background-color: palegoldenrod;
+    background-color: #D5C183;
 }
 
 .collapse.navbar-collapse {
@@ -68,6 +68,16 @@ body {
 .collapse.navbar-collapse .navbar-nav .nav-item {
     margin: auto 1em;
 }
+
+.dropdown-menu hr {
+    border: 0.1px solid #D5C183;
+    width: 80%;
+}
+
+
+/* .dropdown-item {
+    border: 1px solid #D5C183;
+} */
 
 
 /* HOMEPAGE */
