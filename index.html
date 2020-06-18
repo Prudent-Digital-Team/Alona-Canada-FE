@@ -117,10 +117,19 @@
                             <img class="d-block w-100" src="./images/HeroGinseng.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/HeroGinseng.png" alt="Second slide">
+                            <img class="d-block w-100" src="./images/iron-pack.svg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/HeroGinseng.png" alt="Third slide">
+                            <img class="d-block w-100" src="./images/bottle.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/green_pack.svg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/orange-pack.svg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/red_pack.svg" alt="Third slide">
                         </div>
                     </div>
 
@@ -135,6 +144,9 @@
                     <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#productCarousel" data-slide-to="1" class=""></li>
                     <li data-target="#productCarousel" data-slide-to="2" class=""></li>
+                    <li data-target="#productCarousel" data-slide-to="3" class=""></li>
+                    <li data-target="#productCarousel" data-slide-to="4" class=""></li>
+                    <li data-target="#productCarousel" data-slide-to="5" class=""></li>
                 </ol>
 
             </div>
@@ -416,15 +428,15 @@
             new WOW().init();
         });
 
-        $('.css-typing').each(function (i,elem) {
-            var duration =100;
-        var str = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.';
-       
-           // var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
-           
+        $('.css-typing').each(function(i, elem) {
+            var duration = 100;
+            var str = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.';
+
+            // var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+
             var spans = '<span>' + $(elem).text().split('').join('</span><span>') + '</span>';
             $(elem).text('');
-            $(spans).hide().appendTo(elem).each(function (i) {
+            $(spans).hide().appendTo(elem).each(function(i) {
                 $(this).delay(100 * i).css({
                     display: 'inline',
                     opacity: 0
