@@ -1168,6 +1168,9 @@ footer.page-footer a {
     .about-us-page {
         padding: 0 !important;
     }
+    .about-us-page h2, .about-us-page img, .about-us-page p {
+        text-align: center !important;
+    }
     /* ABOUT PRODUCT PAGE */
     .about-product-page {
         padding: 0 !important;
