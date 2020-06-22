@@ -80,6 +80,30 @@ body {
 } */
 
 
+/* SOCIAL ICONS  */
+
+.social [class*="fa fa-"] {
+    background-color: white;
+    border-radius: 30px;
+    color: #333;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+} */
+
+
 /* HOMEPAGE */
 
 .hero-section {
@@ -1167,7 +1191,9 @@ footer.page-footer a {
     .about-us-page {
         padding: 0 !important;
     }
-    .about-us-page h2, .about-us-page img, .about-us-page p {
+    .about-us-page h2,
+    .about-us-page img,
+    .about-us-page p {
         text-align: center !important;
     }
     /* ABOUT PRODUCT PAGE */
