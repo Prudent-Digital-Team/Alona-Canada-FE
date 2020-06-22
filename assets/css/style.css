@@ -70,8 +70,9 @@ body {
 }
 
 .dropdown-menu hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 80%;
+    background-color: #D5C183;
 }
 
 
@@ -127,11 +128,12 @@ body {
 }
 
 hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 85%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color: #D5C183;
 }
 
 .hero-image2-box {
@@ -607,8 +609,9 @@ margin-top: 700px; */
 }
 
 .shopping-cart2-page .shopping-cart hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 100%;
+    background-color: #D5C183;
 }
 
 .shopping-cart2-page .image-box {
@@ -660,8 +663,9 @@ margin-top: 700px; */
 }
 
 .checkout-page .payment-info hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 100%;
+    background-color: #D5C183;
 }
 
 .checkout-page .payment-info .master-card-box {
@@ -804,6 +808,17 @@ margin-top: 700px; */
 
 .user-account-my-account-page .my-account-box hr {
     width: 70%;
+}
+
+.user-account-my-account-page .my-account-box .account-detail-box {
+    background: #FFFFFF;
+    border: 1px solid #D5C183;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.user-account-my-account-page .my-account-box .account-detail-box hr {
+    width: 100%;
 }
 
 
