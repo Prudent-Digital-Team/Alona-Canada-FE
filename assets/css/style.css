@@ -1318,4 +1318,30 @@ footer.page-footer a {
         margin-top: 10px;
         border-top: 1px #D5C183 solid;
     }
+    /* USER ACCOUNT PAGE  */
+    .user-account-my-account-page {
+        text-align: center;
+    }
+    .user-account-my-account-page .my-account-box {
+        text-align: center;
+        margin-right: 10px !important;
+        margin-bottom: 10px !important;
+        padding: 20px 0 !important;
+        border: none;
+    }
+    .user-account-my-account-page .my-account-box h4.gold {
+        padding: 20px 0 !important;
+    }
+    .user-account-my-account-page .my-account-box p {
+        text-align: center;
+    }
+    .user-account-my-account-page .my-account-box .fa {
+        font-size: 20px;
+    }
+    .user-account-my-account-page .my-account-box .pl-5 {
+        padding-left: 0 !important;
+    }
+}
+
+
 }
