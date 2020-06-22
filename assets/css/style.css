@@ -808,6 +808,7 @@ margin-top: 700px; */
 
 .user-account-my-account-page .my-account-box hr {
     width: 70%;
+    margin-top: 0;
 }
 
 .user-account-my-account-page .my-account-box .account-detail-box {
@@ -819,6 +820,10 @@ margin-top: 700px; */
 
 .user-account-my-account-page .my-account-box .account-detail-box hr {
     width: 100%;
+}
+
+.user-account-my-account-page .my-account-box .account-detail-box ul {
+    list-style: none;
 }
 
 
