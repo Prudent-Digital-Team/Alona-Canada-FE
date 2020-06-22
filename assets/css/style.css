@@ -70,8 +70,9 @@ body {
 }
 
 .dropdown-menu hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 80%;
+    background-color: #D5C183;
 }
 
 
@@ -127,11 +128,12 @@ body {
 }
 
 hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 85%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color: #D5C183;
 }
 
 .hero-image2-box {
@@ -607,8 +609,9 @@ margin-top: 700px; */
 }
 
 .shopping-cart2-page .shopping-cart hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 100%;
+    background-color: #D5C183;
 }
 
 .shopping-cart2-page .image-box {
@@ -660,8 +663,9 @@ margin-top: 700px; */
 }
 
 .checkout-page .payment-info hr {
-    border: 0.1px solid #D5C183;
+    /* border: 0.1px solid #D5C183; */
     width: 100%;
+    background-color: #D5C183;
 }
 
 .checkout-page .payment-info .master-card-box {
@@ -778,6 +782,48 @@ margin-top: 700px; */
 .order-tracking-page .order-tracking-hr {
     width: 100%;
     margin: 100px 0;
+}
+
+
+/* USER ACCOUNT PAGE  */
+
+.user-account-my-account-page .my-account-box {
+    background-color: #FFFFFF;
+    border: 1px solid #D5C183;
+    box-sizing: border-box;
+    border-radius: 1px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.user-account-my-account-page .my-account-box .btn {
+    border: 1px solid #ED1C24;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.user-account-my-account-page .my-account-box .btn:hover {
+    background-color: #ED1C24 !important;
+    color: white;
+}
+
+.user-account-my-account-page .my-account-box hr {
+    width: 70%;
+    margin-top: 0;
+}
+
+.user-account-my-account-page .my-account-box .account-detail-box {
+    background: #FFFFFF;
+    border: 1px solid #D5C183;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.user-account-my-account-page .my-account-box .account-detail-box hr {
+    width: 100%;
+}
+
+.user-account-my-account-page .my-account-box .account-detail-box ul {
+    list-style: none;
 }
 
 
@@ -1167,7 +1213,9 @@ footer.page-footer a {
     .about-us-page {
         padding: 0 !important;
     }
-    .about-us-page h2, .about-us-page img, .about-us-page p {
+    .about-us-page h2,
+    .about-us-page img,
+    .about-us-page p {
         text-align: center !important;
     }
     /* ABOUT PRODUCT PAGE */
@@ -1270,4 +1318,30 @@ footer.page-footer a {
         margin-top: 10px;
         border-top: 1px #D5C183 solid;
     }
+    /* USER ACCOUNT PAGE  */
+    .user-account-my-account-page {
+        text-align: center;
+    }
+    .user-account-my-account-page .my-account-box {
+        text-align: center;
+        margin-right: 10px !important;
+        margin-bottom: 10px !important;
+        padding: 20px 0 !important;
+        border: none;
+    }
+    .user-account-my-account-page .my-account-box h4.gold {
+        padding: 20px 0 !important;
+    }
+    .user-account-my-account-page .my-account-box p {
+        text-align: center;
+    }
+    .user-account-my-account-page .my-account-box .fa {
+        font-size: 20px;
+    }
+    .user-account-my-account-page .my-account-box .pl-5 {
+        padding-left: 0 !important;
+    }
+}
+
+
 }
