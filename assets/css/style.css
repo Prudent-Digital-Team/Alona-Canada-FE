@@ -80,30 +80,6 @@ body {
 } */
 
 
-/* SOCIAL ICONS  */
-
-.social [class*="fa fa-"] {
-    background-color: white;
-    border-radius: 30px;
-    color: #333;
-    display: inline-block;
-    height: 30px;
-    line-height: 30px;
-    margin: auto 3px;
-    width: 30px;
-    font-size: 15px;
-    text-align: center;
-}
-
-
-/* i.fa {
-    display: inline-block;
-    border-radius: 60px;
-    box-shadow: 0px 0px 2px #888;
-    padding: 0.5em 0.6em;
-} */
-
-
 /* HOMEPAGE */
 
 .hero-section {
@@ -802,6 +778,32 @@ margin-top: 700px; */
 .order-tracking-page .order-tracking-hr {
     width: 100%;
     margin: 100px 0;
+}
+
+
+/* USER ACCOUNT PAGE  */
+
+.user-account-my-account-page .my-account-box {
+    background-color: #FFFFFF;
+    border: 1px solid #D5C183;
+    box-sizing: border-box;
+    border-radius: 1px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.user-account-my-account-page .my-account-box .btn {
+    border: 1px solid #ED1C24;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.user-account-my-account-page .my-account-box .btn:hover {
+    background-color: #ED1C24 !important;
+    color: white;
+}
+
+.user-account-my-account-page .my-account-box hr {
+    width: 70%;
 }
 
 
