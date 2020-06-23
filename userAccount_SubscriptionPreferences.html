@@ -119,28 +119,35 @@
                     </div>
 
                     <div class=" col-md-8 my-account-box p-5">
-                        <h4 class="gold font-weight-bold pl-5 pb-1">ACCOUNT OVERVIEW </h4>
+                        <h4 class="gold font-weight-bold pl-5 pb-1">EDIT DETAILS</h4>
                         <div class="row account-detail-box m-5 justify-content-center align-content-center">
-                            <h5 class="col-md-10 pt-3 pl-5 font-weight-bold ash">ACCOUNT DETAIL</h5>
-                            <div class=" col-md-2 py-3 "><i class="fa fa-pen fa-2x green "></i> </div>
-                            <hr>
-                            <div class="col-md-12 ">
-                                <p class="ash font-weight-bold pl-5 ">Jane Doe,</p>
-                                <p class="pl-5 pb-3">123 Acme Road, Acme, Ontario, AC1234CA <br> +1 234 456 78 <br> jane.doe@xyz.co.ca</p>
-                            </div>
-                        </div>
 
-                        <div class="row account-detail-box m-5 justify-content-center align-content-center">
-                            <h5 class="col-md-10 pt-3 pl-5 font-weight-bold ash">SUBSCRIPTION STATUS</h5>
-                            <div class=" col-md-2 py-3 "><i class="fa fa-pen fa-2x green "></i> </div>
-                            <hr>
-                            <div class="col-md-12 pl-5 ">
-                                <p>You are currently subcribed to the following:</p>
-                                <ul class="ml-n4">
-                                    <li><i class="fa fa-check gold"></i> Newsletter</li>
-                                    <li><i class="fa fa-check gold"></i> Sales</li>
-                                    <li><i class="fa fa-check gold"></i> Event specials</li>
-                                </ul>
+                            <div class="col-md-12 p-5">
+                                <form>
+                                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="form-group col-sm-12">
+                                            <p>You are currently subcribed to the following:</p>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="newsletter" checked>
+                                                <label class="form-check-label" for="newsletter">Newsletter</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="ales" checked>
+                                                <label class="form-check-label" for="sales">Sales</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="eventSpecials" checked>
+                                                <label class="form-check-label" for="eventSpecials">Event specials</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="discountsSpecials">
+                                                <label class="form-check-label" for="discountsSpecials">Discounts specials</label>
+                                            </div>
+                                        </div>
+                                        <button class="btn button font-weight-bold ml-auto px-5 wow bounce " type="submit">Submit</button>
+                                    </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>

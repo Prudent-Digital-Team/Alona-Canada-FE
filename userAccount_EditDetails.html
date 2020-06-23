@@ -119,28 +119,38 @@
                     </div>
 
                     <div class=" col-md-8 my-account-box p-5">
-                        <h4 class="gold font-weight-bold pl-5 pb-1">ACCOUNT OVERVIEW </h4>
+                        <h4 class="gold font-weight-bold pl-5 pb-1">SUBSCRIPTION PREFERENCES</h4>
                         <div class="row account-detail-box m-5 justify-content-center align-content-center">
-                            <h5 class="col-md-10 pt-3 pl-5 font-weight-bold ash">ACCOUNT DETAIL</h5>
-                            <div class=" col-md-2 py-3 "><i class="fa fa-pen fa-2x green "></i> </div>
-                            <hr>
-                            <div class="col-md-12 ">
-                                <p class="ash font-weight-bold pl-5 ">Jane Doe,</p>
-                                <p class="pl-5 pb-3">123 Acme Road, Acme, Ontario, AC1234CA <br> +1 234 456 78 <br> jane.doe@xyz.co.ca</p>
-                            </div>
-                        </div>
 
-                        <div class="row account-detail-box m-5 justify-content-center align-content-center">
-                            <h5 class="col-md-10 pt-3 pl-5 font-weight-bold ash">SUBSCRIPTION STATUS</h5>
-                            <div class=" col-md-2 py-3 "><i class="fa fa-pen fa-2x green "></i> </div>
-                            <hr>
-                            <div class="col-md-12 pl-5 ">
-                                <p>You are currently subcribed to the following:</p>
-                                <ul class="ml-n4">
-                                    <li><i class="fa fa-check gold"></i> Newsletter</li>
-                                    <li><i class="fa fa-check gold"></i> Sales</li>
-                                    <li><i class="fa fa-check gold"></i> Event specials</li>
-                                </ul>
+                            <div class="col-md-12 p-5">
+                                <form>
+                                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="form-group col-sm-12">
+                                            <div class="md-form input-with-post-icon">
+                                                <i class="fas fa-user input-prefix"></i>
+                                                <input type="text" id="fullName" class="form-control">
+                                                <label for="fullName" class="font-weight-light gold">FULL NAME</label>
+                                            </div>
+                                            <div class="md-form input-with-post-icon">
+                                                <i class="fas fa-envelope input-prefix"></i>
+                                                <input type="email" id="email" class="form-control">
+                                                <label for="email" class="font-weight-light gold">EMAIL</label>
+                                            </div>
+                                            <div class="md-form input-with-post-icon">
+                                                <i class="fas fa-map-marker input-prefix"></i>
+                                                <input type="text" id="location" class="form-control">
+                                                <label for="location" class="font-weight-light gold">LOCATION</label>
+                                            </div>
+                                            <div class="md-form input-with-post-icon">
+                                                <i class="fas fa-phone input-prefix"></i>
+                                                <input type="tel" id="phoneNumber" class="form-control">
+                                                <label for="phoneNumber" class="font-weight-light gold">PHONE NUMBER</label>
+                                            </div>
+                                        </div>
+                                        <button class="btn button font-weight-bold ml-auto px-5 wow bounce " type="submit">Submit</button>
+                                    </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>
