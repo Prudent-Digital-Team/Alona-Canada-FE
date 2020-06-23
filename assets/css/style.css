@@ -1165,6 +1165,18 @@ footer.page-footer a {
 }
 
 
+/* EMAIL TEMPLATE  */
+
+.order-confirm-box {
+    border: 1px solid #D5C183;
+    box-sizing: border-box;
+}
+
+.order-confirm-box hr {
+    width: 100%;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
