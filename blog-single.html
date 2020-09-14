@@ -1,340 +1,456 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Alona canada | Blog Post</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="./assets/dist/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/dist/css/mdb.min.css" />
     <!-- Bootstrap core CSS -->
-    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet" />
     <!-- Font Awesome CSS -->
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/all.css" rel="stylesheet" />
 
     <!-- Custom Font Family Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom styles-->
-    <link href="./assets/css/style.css" rel="stylesheet">
-</head>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
-   <!-- NAVIGATION BAR -->
-   <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-    <!-- Navbar brand -->
-    <a class="ml-5" href="./index.html"
-      ><img class="img-fluid" src="./images/logo.png" alt="" width="120"
-    /></a>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+      <!-- Navbar brand -->
+      <a class="ml-5" href="./index.html"
+        ><img class="img-fluid" src="./images/logo.png" alt="" width="120"
+      /></a>
 
-    <!-- Collapse button -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#basicNav"
-      aria-controls="basicNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Collapse button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#basicNav"
+        aria-controls="basicNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Collapsible content -->
+      <!-- Collapsible content -->
 
-    <div class="collapse navbar-collapse" id="basicNav">
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./products.html">Products</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./blog.html">Blog</a>
-        </li>
+      <div class="collapse navbar-collapse" id="basicNav">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Products</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About Us</a>
-        </li>
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            id="navbarDropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            >Pages</a
-          >
-          <div
-            class="dropdown-menu dropdown-primary text-center"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <a class="dropdown-item" href="./orderTrackingShipped.html"
-              >Tracking</a
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Pages</a
             >
-            <hr />
-            <a class="dropdown-item" href="./healthyRecipe.html"
-              >Healthy Recipe</a
+            <div
+              class="dropdown-menu dropdown-primary text-center"
+              aria-labelledby="navbarDropdownMenuLink"
             >
-          </div>
-        </li>
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            id="navbarDropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            href="./register.html"
-            >Register</a
-          >
-          <div
-            class="dropdown-menu dropdown-primary text-center"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <a class="dropdown-item" href="./login.html">Login</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact Us</a>
-        </li>
-      </ul>
-      <!-- Links -->
-      <div class="my-0">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="input-group">
-              <input
-                class="form-control py-2 border-right-0 border"
-                type="search"
-                value="search..."
-                id="example-search-input"
-              />
-              <span class="input-group-append">
-                <div class="input-group-text bg-transparent">
-                  <i class="fa fa-search"></i>
-                </div>
-              </span>
+              <a class="dropdown-item" href="./orderTrackingShipped.html"
+                >Tracking</a
+              >
+              <hr />
+              <a class="dropdown-item" href="./healthyRecipe.html"
+                >Healthy Recipe</a
+              >
             </div>
-          </div>
-          <div class="col-md-3">
-            <a href="" class="p-2">
-              <img src="./images/basket-icon.png" alt=""
-            /></a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              href="./register.html"
+              >Register</a
+            >
+            <div
+              class="dropdown-menu dropdown-primary text-center"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="./login.html">Login</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- Links -->
+        <div class="my-0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="input-group">
+                <input
+                  class="form-control py-2 border-right-0 border"
+                  type="search"
+                  value="search..."
+                  id="example-search-input"
+                />
+                <span class="input-group-append">
+                  <div class="input-group-text bg-transparent">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <a href="" class="p-2">
+                <img src="./images/basket-icon.png" alt=""
+              /></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Collapsible content -->
-  </nav>
-  <!--/.Navbar-->
-    <main class="blog-single-page">
-        <div class="container p-4">
-            <div class="row justify-content-center align-content-center blog-post">
+      <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+    <main class="blog-single-page mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="container p-1">
+              <div
+                class="row justify-content-center align-content-center blog-post"
+              >
                 <div class="col-md-12 col-xs-12 col-sm-12">
-                    <h2 class="font-weight-bold red wow fadeInUp css-typing">What do we know about mental illness?</h2>
+                  <h2 class="font-weight-bold red wow fadeInUp css-typing">
+                    What do we know about mental illness?
+                  </h2>
                 </div>
                 <div class="col-md-12 col-xs-12 col-sm-12">
-                    <p class="green wow slideInUp">February 24, 2020 | Health knowledge</p>
+                  <p class="green wow slideInUp">
+                    February 24, 2020 | Health knowledge
+                  </p>
                 </div>
                 <div class="col-md-12 col-xs-12 col-sm-12">
-                    <img class="img-responsive wow fadeInUp" src="./images/blog1.png " alt=" ">
+                  <img
+                    class="img-responsive wow fadeInUp"
+                    src="./images/blog1.png "
+                    alt=" "
+                  />
                 </div>
                 <div class="col-md-12 col-xs-12 col-sm-12">
-                    <h4 class="green pr-4 py-4 font-weight-bold wow fadeInUp">We all interpret what is happening in our lives. Developing a more expanded and positive mind frame promotes mental well-being</h4>
+                  <h4 class="green pr-4 py-4 font-weight-bold wow fadeInUp">
+                    We all interpret what is happening in our lives. Developing
+                    a more expanded and positive mind frame promotes mental
+                    well-being
+                  </h4>
                 </div>
                 <div class="col-md-12 col-xs-12 col-sm-12 wow fadeInUp">
-                    <p class="ash">Mental illness is a state of mind in which a person is unable to cope with some aspect of life, to the point where their ability to lead a fulfilling life is seriously impaired. </p>
+                  <p class="ash">
+                    Mental illness is a state of mind in which a person is
+                    unable to cope with some aspect of life, to the point where
+                    their ability to lead a fulfilling life is seriously
+                    impaired.
+                  </p>
 
-                    <p>There are four aspects to mental health and four contributors to mental illness: </p>
+                  <p>
+                    There are four aspects to mental health and four
+                    contributors to mental illness:
+                  </p>
 
-                    <p>Environment including all the nutrients and anti-nutrients we take in, which can be corrected by improving your nutrition and making lifestyle changes to minimize the effects of anti-nutrients.
-                    </p>
+                  <p>
+                    Environment including all the nutrients and anti-nutrients
+                    we take in, which can be corrected by improving your
+                    nutrition and making lifestyle changes to minimize the
+                    effects of anti-nutrients.
+                  </p>
 
-                    <p>Genes, which can be vastly improved by specific nutritional strategies. Because we are all unique. Some people need much more of a nutrient to stay well than others.
-                    </p>
-                    <p>Sense input which is the way you interpret what is happening in your life. Nutrition also makes a difference in how you perceive. For example, zinc deficiency alters perceptions about body size and appetite, both of which contribute
-                        to eating disorders.
-                    </p>
-                    <p>The brain is far more sensitive to biochemical imbalances than any other organ of the body. So, if you do have mental health problems, it is vital to investigate whether or not you have any of the most common biochemical imbalances
-                        that can cause mental illness by a test. Then, a nutritional strategy can help bring you back into balance.
-                    </p>
-                    <p>Mind frame. We all interpret what is happening in our lives. Developing a more expanded and positive mind frame promotes mental well-being. When we cannot cope with our interpretation of reality, we dissipate the fear, anxiety or pain
-                        by eating too much, or by consuming sugar, alcohol and cigarettes - or even harmful drugs, such as heroin or cocaine.
-                    </p>
-                    <p>The brain is far more sensitive to biochemical imbalances than any other organ of the body. So, it is vital to investigate whether or not you have any of the most common biochemical imbalances that can cause mental illness by an objective
-                        test. Then, a nutritional strategy can help bring you back into balance. </p>
-                    <p>These are the 13 common causes of mental health problems regarding biochemical imbalances: </p>
-                    <p><span class="gold font-weight-bold">Blood sugar problems.</span> It leads to symptoms such as frequent mood swings, tendency to depression, anxiety and irritability, drowsiness after meals.</p>
-                    <p><span class="gold font-weight-bold">Stimulant and drug dependency.</span> Many people assume that drinking caffeinated drinks or alcohol, eating sugar and smoking cigarettes is hardly going to make them crazy. This is far from the
-                        truth. Intoxication with stimulants or drugs such as amphetamines, cocaine, or cannabis does bring symptoms of mental illness.</p>
+                  <p>
+                    Genes, which can be vastly improved by specific nutritional
+                    strategies. Because we are all unique. Some people need much
+                    more of a nutrient to stay well than others.
+                  </p>
+                  <p>
+                    Sense input which is the way you interpret what is happening
+                    in your life. Nutrition also makes a difference in how you
+                    perceive. For example, zinc deficiency alters perceptions
+                    about body size and appetite, both of which contribute to
+                    eating disorders.
+                  </p>
+                  <p>
+                    The brain is far more sensitive to biochemical imbalances
+                    than any other organ of the body. So, if you do have mental
+                    health problems, it is vital to investigate whether or not
+                    you have any of the most common biochemical imbalances that
+                    can cause mental illness by a test. Then, a nutritional
+                    strategy can help bring you back into balance.
+                  </p>
+                  <p>
+                    Mind frame. We all interpret what is happening in our lives.
+                    Developing a more expanded and positive mind frame promotes
+                    mental well-being. When we cannot cope with our
+                    interpretation of reality, we dissipate the fear, anxiety or
+                    pain by eating too much, or by consuming sugar, alcohol and
+                    cigarettes - or even harmful drugs, such as heroin or
+                    cocaine.
+                  </p>
+                  <p>
+                    The brain is far more sensitive to biochemical imbalances
+                    than any other organ of the body. So, it is vital to
+                    investigate whether or not you have any of the most common
+                    biochemical imbalances that can cause mental illness by an
+                    objective test. Then, a nutritional strategy can help bring
+                    you back into balance.
+                  </p>
+                  <p>
+                    These are the 13 common causes of mental health problems
+                    regarding biochemical imbalances:
+                  </p>
+                  <p>
+                    <span class="gold font-weight-bold"
+                      >Blood sugar problems.</span
+                    >
+                    It leads to symptoms such as frequent mood swings, tendency
+                    to depression, anxiety and irritability, drowsiness after
+                    meals.
+                  </p>
+                  <p>
+                    <span class="gold font-weight-bold"
+                      >Stimulant and drug dependency.</span
+                    >
+                    Many people assume that drinking caffeinated drinks or
+                    alcohol, eating sugar and smoking cigarettes is hardly going
+                    to make them crazy. This is far from the truth. Intoxication
+                    with stimulants or drugs such as amphetamines, cocaine, or
+                    cannabis does bring symptoms of mental illness.
+                  </p>
+                </div>
+                <div class="row mt-5 mb-5">
+                  <div class="col-md-1"></div>
+                  <div class="col-md-10">
+                    <button
+                      class="btn read-more font-weight-bold wow flip slow"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div class="col-md-1"></div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-md-1">
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="./images/flat-stone.svg" alt="" />
                     </div>
-                    <div class="col-md-10"><button class="btn read-more font-weight-bold wow flip slow">Read More</button></div>
-                    <div class="col-md-1"></div>
-                </div>
+                    <div class="col-md-6"></div>
+                    
+                    
+                  </div>
+              </div>
             </div>
-
-        </div>
-        <hr>
-        <div class="container blog-single-page-categories my-5 py-5">
-            <h2 class="font-weight-bold red">Categories</h2>
-            <div class="row my-5">
+          </div>
+          <div class="col-md-4">
+            <div class="container blog-single-page-categories my-5 py-1">
+              <h2 class="font-weight-bold red">Categories</h2>
+              <div class="row my-2">
                 <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xs-12">Ginseng for health benefits</div>
-                        <div class="col-md-3 col-sm-12 col-xs-12">Ginseng stories</div>
-                        <div class="col-md-3 col-sm-12 col-xs-12">Health Knowledge</div>
-                        <div class="col-md-2 col-sm-12 col-xs-12">Superfood</div>
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 mb-3"><a class="ash" href="#">Ginseng for health benefits</a> 
+                      
                     </div>
-
-                </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="row justify-content-end allpostbtn">
-                        <a href="">
-                            <div class="ml-auto green font-weight-bold allpostbtn">ALL POSTS</div>
-                        </a>
+                    <div class="col-md-12 col-sm-12 col-xs-12 mb-3"><a class="ash" href="#">Ginseng stories</a> 
+                      
                     </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 mb-3"><a class="ash" href="#">Health Knowledge</a> 
+                      
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 mb-3"><a class="ash" href="#">Superfood</a> </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12  mt-4"><a  href="">
+                        <div class="green font-weight-bold allpostbtn">
+                          ALL POSTS
+                        </div>
+                      </a></div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="container recent-posts">
-            <h2 class="font-weight-bold red mb-5">Recent Posts</h2>
-            <div class="row d-md-flex justify-content-space-between align-items-center">
-                <div class="col-md-4 individual-blog-post">
-                    <img class="img-fluid" src="./images/blog2.png" alt="">
-                    <div class="blog-desc p-4">
-                        <p class="red font-weight-bold">Mental Health in Old Age - Parkinson's disease</p>
-                        <p class="green"> March 23, 2020 | Health knowledge</p>
-                    </div>
+            <hr />
+            <div class="container recent-posts">
+              <h2 class="font-weight-bold red mb-5">Recent Posts</h2>
+              <div
+                class="row d-md-flex justify-content-space-between align-items-center"
+              >
+                <div class="col-md-12 mt-3 mb-3 individual-blog-post">
+                  <img class="img-fluid" src="./images/blog2.png" alt="" />
+                  <div class="blog-desc p-4">
+                    <p class="red font-weight-bold">
+                      Mental Health in Old Age - Parkinson's disease
+                    </p>
+                    <p class="green">March 23, 2020 | Health knowledge</p>
+                  </div>
                 </div>
-                <div class="col-md-4 individual-blog-post">
-                    <img class="img-fluid" src="./images/blog-main-picture1.png" alt="">
-                    <div class="blog-desc p-4">
-                        <p class="red font-weight-bold">Ginseng and Stress Reduction</p>
-                        <p class="green"> November 3, 2018 | Ginseng for Health Benefits</p>
-                    </div>
+                <div class="col-md-12 mt-3 mb-3 individual-blog-post">
+                  <img
+                    class="img-fluid"
+                    src="./images/blog-main-picture1.png"
+                    alt=""
+                  />
+                  <div class="blog-desc p-4">
+                    <p class="red font-weight-bold">
+                      Ginseng and Stress Reduction
+                    </p>
+                    <p class="green">
+                      November 3, 2018 | Ginseng for Health Benefits
+                    </p>
+                  </div>
                 </div>
 
-                <div class="col-md-4 individual-blog-post">
-                    <img class="img-fluid" src="./images/blog-4.png" alt="">
-                    <div class="blog-desc p-4">
-                        <p class="red font-weight-bold">Ginseng and Your Sex Life</p>
-                        <p class="green"> February 21, 2019 | Ginseng for health benefits</p>
-                    </div>
+                <div class="col-md-12 mt-3 mb-3 individual-blog-post">
+                  <img class="img-fluid" src="./images/blog-4.png" alt="" />
+                  <div class="blog-desc p-4">
+                    <p class="red font-weight-bold">
+                      Ginseng and Your Sex Life
+                    </p>
+                    <p class="green">
+                      February 21, 2019 | Ginseng for health benefits
+                    </p>
+                  </div>
                 </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <hr />
+
+      <!-- SUBSCRIBE SECTION -->
+      <div class="container subscribe">
+        <h2 class="font-weight-bold pb-2 pt-2 red text-center">Subscribe</h2>
+        <p class="text-center">
+          Sign up to hear from us about specials, sales, and events
+        </p>
+        <form class="flex-column">
+          <div class="form-group row">
+            <div class="col-sm-10 col-md-10">
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail3"
+                placeholder="Email"
+              />
             </div>
-            <div class="row">
-                <div class="col-md-3"> <img class="img-fluid" src="./images/flat-stone.svg" alt=""> </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10 col-md-12 col-xs-12 col-sm-12 mt-2">
+              <button type="submit" class="btn">Subscribe</button>
             </div>
-        </div>
-        <!-- SUBSCRIBE SECTION -->
-        <div class="container subscribe">
-            <h2 class="font-weight-bold pb-2 pt-2 red text-center">Subscribe</h2>
-            <p class="text-center">Sign up to hear from us about specials, sales, and events</p>
-            <form class="flex-column">
-                <div class="form-group row">
-                    <div class="col-sm-10 col-md-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-group row ">
-                    <div class="col-sm-10 col-md-12 col-xs-12 col-sm-12  mt-2">
-                        <button type="submit" class="btn">Subscribe </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <hr>
+          </div>
+        </form>
+      </div>
+      <hr />
     </main>
 
     <!-- Footer -->
     <footer class="page-footer font-small lighten-5">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+        <!-- Grid row -->
+        <div class="row dark-grey-text">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
+            <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+          </div>
+          <!-- Grid column -->
 
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="">Quick links</h6>
+          </div>
+          <!-- Grid column -->
 
-            <!-- Grid row -->
-            <div class="row dark-grey-text">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6>Privacy policy</h6>
+          </div>
+          <!-- Grid column -->
 
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <a href="./index.html"><img src="./images/logo.png" alt=""></a>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                    <!-- Links -->
-                    <h6 class="">Quick links</h6>
-
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6>Privacy policy</h6>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <a href="./contact.html">
-                        <h6>Contact Support</h6>
-                    </a>
-
-                </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6>Terms of use</h6>
-                </div>
-                <!-- Grid column -->
-
-            </div>
-            <!-- Grid row -->
-
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <a href="./contact.html">
+              <h6>Contact Support</h6>
+            </a>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6>Terms of use</h6>
+          </div>
+          <!-- Grid column -->
         </div>
-        <!-- Footer Links -->
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center text-black-50 py-3">Powered by:
-            <a class="font-weight-bold" href="https://pbgdigital.co.uk/" style="color: #ED1C24;"> Prudent Digital International</a>
-        </div>
-        <!-- Copyright -->
-
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-black-50 py-3">
+        Powered by:
+        <a
+          class="font-weight-bold"
+          href="https://pbgdigital.co.uk/"
+          style="color: #ed1c24"
+        >
+          Prudent Digital International</a
+        >
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- Footer -->
     <!-- jQuery -->
-    <script type="text/javascript " src="./assets/dist/js/jquery.min.js "></script>
+    <script
+      type="text/javascript "
+      src="./assets/dist/js/jquery.min.js "
+    ></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript " src="./assets/dist/js/popper.min.js "></script>
+    <script
+      type="text/javascript "
+      src="./assets/dist/js/popper.min.js "
+    ></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript " src="./assets/dist/js/bootstrap.min.js "></script>
+    <script
+      type="text/javascript "
+      src="./assets/dist/js/bootstrap.min.js "
+    ></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript " src="./assets/dist/js/mdb.min.js "></script>
     <script>
-        $(document).ready(function() {
-            new WOW().init();
-        });
+      $(document).ready(function () {
+        new WOW().init();
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
