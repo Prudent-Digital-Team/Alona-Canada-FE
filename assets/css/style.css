@@ -139,9 +139,9 @@ body {
     margin-top: 90px;
 }
 
-.carousel-indicators li:first-child {
+/* .carousel-indicators li:first-child {
     /* background: #6B6B6A; */
-}
+} */
 
 hr {
     /* border: 0.1px solid #D5C183; */
@@ -1320,7 +1320,7 @@ footer.page-footer a {
     }
     /* PRODUCTS PAGE  */
     .products .product {
-        margin: 0 50px;
+        margin: 10px 15px;
         margin-bottom: 50px;
         text-align: center;
     }
