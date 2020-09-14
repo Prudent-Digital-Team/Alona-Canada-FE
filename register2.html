@@ -29,79 +29,116 @@
 <body>
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-
         <!-- Navbar brand -->
-        <a href="./index.html"><img src="./images/logo.png" alt=""></a>
-
+        <a class="ml-5" href="./index.html"
+          ><img class="img-fluid" src="./images/logo.png" alt="" width="120"
+        /></a>
+  
         <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-    </button>
-
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#basicNav"
+          aria-controls="basicNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
         <!-- Collapsible content -->
-
-        <div class="collapse navbar-collapse" id="basicExampleNav">
-
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./about.html">About Us</a>
-                        <a class="dropdown-item" href="./about-product.html">About Canada Ginseng</a>
+  
+        <div class="collapse navbar-collapse" id="basicNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <div
+                class="dropdown-menu dropdown-primary text-center"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="./orderTrackingShipped.html"
+                  >Tracking</a
+                >
+                <hr />
+                <a class="dropdown-item" href="./healthyRecipe.html"
+                  >Healthy Recipe</a
+                >
+              </div>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                href="./register.html"
+                >Register</a
+              >
+              <div
+                class="dropdown-menu dropdown-primary text-center"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="./login.html">Login</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <!-- Links -->
+          <div class="my-0">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <input
+                    class="form-control py-2 border-right-0 border"
+                    type="search"
+                    value="search..."
+                    id="example-search-input"
+                  />
+                  <span class="input-group-append">
+                    <div class="input-group-text bg-transparent">
+                      <i class="fa fa-search"></i>
                     </div>
-                </li>
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./products.html">Products</a>
-                        <a class="dropdown-item" href="./blog.html">Blog</a>
-                        <a class="dropdown-item" href="./orderTrackingNo.html">Order Tracking 1</a>
-                        <a class="dropdown-item" href="./orderTrackingShipped.html">Order Tracking 2</a>
-                        <a class="dropdown-item" href="./faqs.html">FAQs</a>
-                    </div>
-                </li>
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./login.html">Login</a>
-                        <a class="dropdown-item active" href="./register.html">Register</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-
-            </ul>
-            <!-- Links -->
-            <div class=" my-0">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="input-group">
-                            <input class="form-control py-2 border-right-0 border" type="search" value="search..." id="example-search-input">
-                            <span class="input-group-append">
-                                    <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
-                                </span>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="" class="p-2"> <img src="./images/basket-icon.png" alt=""></a>
-                    </div>
-
+                  </span>
                 </div>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="p-2">
+                  <img src="./images/basket-icon.png" alt=""
+                /></a>
+              </div>
             </div>
-
-
+          </div>
         </div>
         <!-- Collapsible content -->
-
-    </nav>
-    <!--/.Navbar-->
+      </nav>
+      <!--/.Navbar-->
     <!-- CONFIRMATION SECTION -->
     <div class="container-fluid mt-5 mb-5  register">
         <div class="row">
