@@ -1,9 +1,9 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
 
-* {
+/* * {
     outline: 1px solid purple;
-}
+} */
 
 * {
     box-sizing: border-box;
