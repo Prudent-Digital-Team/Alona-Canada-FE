@@ -77,9 +77,9 @@ body {
     background-color: #D5C183;
 }
 
-/* .collapse.navbar-collapse {
-    margin-left: 15%;
-} */
+.collapse.navbar-collapse {
+    margin-left: 2%;
+}
 
 .collapse.navbar-collapse .navbar-nav .nav-item {
     margin: auto 1em;
