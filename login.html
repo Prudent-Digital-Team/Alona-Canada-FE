@@ -1,316 +1,355 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Balogun Ridwan">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Balogun Ridwan" />
     <title>Alona Canada | Login</title>
     <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="./assets/dist/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/dist/css/mdb.min.css" />
     <!-- Bootstrap core CSS -->
-    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet" />
     <!-- Font Awesome CSS -->
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/all.css" rel="stylesheet" />
 
     <!-- Custom Font Family Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- <link rel='stylesheet'
        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons'> -->
     <!-- <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.css'> -->
     <!-- <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css'> -->
     <!-- Custom styles-->
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <link href="./assets/css/animate.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/animate.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-        <!-- Navbar brand -->
-        <a class="ml-5" href="./index.html"
-          ><img class="img-fluid" src="./images/logo.png" alt="" width="120"
-        /></a>
-  
-        <!-- Collapse button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#basicNav"
-          aria-controls="basicNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+      <!-- Navbar brand -->
+      <a class="ml-5" href="./index.html"
+        ><img class="img-fluid" src="./images/logo.png" alt="" width="120"
+      /></a>
+
+      <!-- Collapse button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#basicNav"
+        aria-controls="basicNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+
+      <div class="collapse navbar-collapse" id="basicNav">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Pages</a
+            >
+            <div
+              class="dropdown-menu dropdown-primary text-center"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="./orderTrackingShipped.html"
+                >Tracking</a
+              >
+              <hr />
+              <a class="dropdown-item" href="./healthyRecipe.html"
+                >Healthy Recipe</a
+              >
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              href="./register.html"
+              >Register</a
+            >
+            <div
+              class="dropdown-menu dropdown-primary text-center active"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="./login.html">Login</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- Links -->
+        <div class="my-0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="input-group">
+                <input
+                  class="form-control py-2 border-right-0 border"
+                  type="search"
+                  value="search..."
+                  id="example-search-input"
+                />
+                <span class="input-group-append">
+                  <div class="input-group-text bg-transparent">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <a href="" class="p-2">
+                <img src="./images/basket-icon.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+    <!--/.Navbar-->
+    <!-- LOGIN SECTION -->
+    <div class="container-fluid mt-5 mb-5 login">
+      <div class="row">
+        <div class="col-sm-3 align-self-center">
+          <div class="ml-auto root-image">
+            <!-- <img class="img-fluid" src="./images/ginseng_root.svg" alt=""> -->
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="col-md-12">
+            <h2
+              data-aos="fade-up"
+              class="font-weight-bold pb-2 pt-2 mb-3 wow bounce red text-center"
+            >
+              Login
+            </h2>
+          </div>
+        </div>
+        <div class="col-sm-3 align-self-center">
+          <div class="ml-auto cone-image">
+            <!-- <img class="img-fluid" src="./images/heap_powder.svg" alt=""> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div
+          style="z-index: 9900 !important"
+          class="row login-box justify-content-center align-content-center p-5"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <!-- Collapsible content -->
-  
-        <div class="collapse navbar-collapse" id="basicNav">
-          <!-- Links -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./products.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./blog.html">Blog</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About Us</a>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Pages</a
+          <div class="col-md-6">
+            <div class="col-md-12">
+              <h2
+                data-aos="fade-left"
+                class="text-left font-weight-bold wow fadeInLeft gold py-3"
               >
-              <div
-                class="dropdown-menu dropdown-primary text-center"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="./orderTrackingShipped.html"
-                  >Tracking</a
-                >
-                <hr />
-                <a class="dropdown-item" href="./healthyRecipe.html"
-                  >Healthy Recipe</a
-                >
-              </div>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                href="./register.html"
-                >Register</a
-              >
-              <div
-                class="dropdown-menu dropdown-primary text-center active"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="./login.html">Login</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <!-- Links -->
-          <div class="my-0">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="input-group">
-                  <input
-                    class="form-control py-2 border-right-0 border"
-                    type="search"
-                    value="search..."
-                    id="example-search-input"
-                  />
-                  <span class="input-group-append">
-                    <div class="input-group-text bg-transparent">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </span>
+                LOGIN
+              </h2>
+            </div>
+            <div class="col-md-12 wow fadeInLeft">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="inputEmail4" class="font-weight-bold ash py-1"
+                      >EMAIL ADDRESS</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control input-border"
+                      id="inputEmail4"
+                    />
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label
+                      for="inputPassword4"
+                      class="font-weight-bold ash py-1"
+                      >PASSWORD</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control input-border"
+                      id="inputPassword4"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-3">
-                <a href="" class="p-2">
-                  <img src="./images/basket-icon.png" alt=""
-                /></a>
+                <div class="padding">
+                  <button type="submit" class="btn font-weight-bold px-5">
+                    Login
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 left-border">
+            <div class="col-md-12">
+              <h2
+                data-aos="fade-left"
+                class="text-left font-weight-bold gold py-3 wow fadeInRight"
+              >
+                SIGN UP
+              </h2>
+            </div>
+            <div class="col-md-12 wow fadeInRight">
+              <p class="text-left pr-1 h4 mb-5">
+                Don’t have account, <br />
+                sign up & enjoy amazing benefits.
+              </p>
+              <div class="mt-5">
+                <button type="submit" class="btn font-weight-bold px-5">
+                  Sign up
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <!-- Collapsible content -->
-      </nav>
-      <!--/.Navbar-->
-    <!--/.Navbar-->
-    <!-- LOGIN SECTION -->
-    <div class="container-fluid mt-5 mb-5 login">
-        <div class="row">
-            <div class="col-sm-3  align-self-center">
-                <div class="ml-auto root-image">
-                    <!-- <img class="img-fluid" src="./images/ginseng_root.svg" alt=""> -->
-                </div>
-
-            </div>
-
-            <div class="col-sm-6">
-                <div class="col-md-12">
-                    <h2 data-aos="fade-up" class="font-weight-bold pb-2 pt-2 mb-3 wow bounce red text-center">Login</h2>
-                </div>
-
-            </div>
-            <div class="col-sm-3  align-self-center">
-                <div class="ml-auto cone-image">
-                    <!-- <img class="img-fluid" src="./images/heap_powder.svg" alt=""> -->
-                </div>
-
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bottom-flower ml-auto">
+            <img
+              class="img-fluid"
+              src=" ./images/flower-red-green.svg "
+              alt=" "
+            />
+          </div>
         </div>
-
-        <div class=" container">
-            <div style="z-index: 9900!important;" class="row login-box justify-content-center align-content-center p-5">
-                <div class="col-md-6">
-                    <div class="col-md-12">
-                        <h2 data-aos="fade-left" class="text-left font-weight-bold wow fadeInLeft gold py-3">LOGIN </h2>
-                    </div>
-                    <div class="col-md-12 wow fadeInLeft">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-md-12 ">
-                                    <label for="inputEmail4" class="font-weight-bold ash py-1">EMAIL ADDRESS</label>
-                                    <input type="email" class="form-control input-border" id="inputEmail4">
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputPassword4" class="font-weight-bold ash  py-1">PASSWORD</label>
-                                    <input type="password" class="form-control input-border" id="inputPassword4">
-                                </div>
-                            </div>
-                            <div class="padding">
-                                <button type="submit" class="btn font-weight-bold px-5 ">Login</button>
-                            </div>
-
-                        </form>
-                    </div>
-
-                </div>
-                <div class="col-md-6 left-border">
-                    <div class="col-md-12">
-                        <h2 data-aos="fade-left" class="text-left font-weight-bold gold py-3 wow fadeInRight">SIGN UP </h2>
-                    </div>
-                    <div class="col-md-12 wow fadeInRight">
-
-                        <p class="text-left pr-1 h4 mb-5"> Don’t have account, <br> sign up & enjoy amazing benefits.
-                        </p>
-                        <div class="mt-5">
-                            <button type="submit" class="btn font-weight-bold px-5 ">Sign up</button>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="bottom-flower ml-auto">
-                    <img class="img-fluid" src=" ./images/flower-red-green.svg " alt=" ">
-                </div>
-
-            </div>
-        </div>
+      </div>
     </div>
 
-    <hr>
+    <hr />
     <!-- Footer -->
     <footer class="page-footer font-small lighten-5">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+        <!-- Grid row -->
+        <div class="row dark-grey-text">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
+            <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+          </div>
+          <!-- Grid column -->
 
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="">Quick links</h6>
+          </div>
+          <!-- Grid column -->
 
-            <!-- Grid row -->
-            <div class="row dark-grey-text">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6>Privacy policy</h6>
+          </div>
+          <!-- Grid column -->
 
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <a href="./index.html"><img src="./images/logo.png" alt=""></a>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                    <!-- Links -->
-                    <h6 class="">Quick links</h6>
-
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6>Privacy policy</h6>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <a href="./contact.html">
-                        <h6>Contact Support</h6>
-                    </a>
-
-                </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6>Terms of use</h6>
-                </div>
-                <!-- Grid column -->
-
-            </div>
-            <!-- Grid row -->
-
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <a href="./contact.html">
+              <h6>Contact Support</h6>
+            </a>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6>Terms of use</h6>
+          </div>
+          <!-- Grid column -->
         </div>
-        <!-- Footer Links -->
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center text-black-50 py-3">Powered by:
-            <a class="font-weight-bold" href="https://pbgdigital.co.uk/" style="color: #ED1C24;"> Prudent Digital International</a>
-        </div>
-        <!-- Copyright -->
-
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-black-50 py-3">
+        Powered by:
+        <a
+          class="font-weight-bold"
+          href="https://pbgdigital.co.uk/"
+          style="color: #ed1c24"
+        >
+          Prudent Digital International</a
+        >
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- jQuery -->
-    <script type="text/javascript" src="./assets/dist/js/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/dist/js/jquery.min.js"
+    ></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="./assets/dist/js/popper.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/dist/js/popper.min.js"
+    ></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/dist/js/bootstrap.min.js"
+    ></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="./assets/dist/js/mdb.min.js"></script>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/bootstrap-material-design.min.js'></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/bootstrap-material-design.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.js"></script>
     <!-- <script src='https://unpkg.com/aos@next/dist/aos.js'></script> -->
 
-
-
     <script id="rendered-js">
-        const $backTop = $(".back-to-top");
-        const isHidden = "is-hidden";
+      const $backTop = $(".back-to-top");
+      const isHidden = "is-hidden";
 
-        // AOS.init({
-        //     offset: 200,
-        //     delay: 50,
-        //     once: true, //false
-        // });
+      // AOS.init({
+      //     offset: 200,
+      //     delay: 50,
+      //     once: true, //false
+      // });
 
-        $(document).ready(function() {
-            new WOW().init();
-        });
+      $(document).ready(function () {
+        new WOW().init();
+      });
     </script>
-</body>
-
+  </body>
 </html>
